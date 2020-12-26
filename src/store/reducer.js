@@ -5,7 +5,7 @@ const initialState = {
 const reducer = (state = initialState, action) => {
   // console.log(action.type);
   switch (action.type) {
-    case "ADD": {
+    case "ADDsss": {
       let newPerson = {
         id: Math.random(),
         name: "Max",
@@ -15,7 +15,7 @@ const reducer = (state = initialState, action) => {
       return { ...state.persons, persons: state.persons.concat(newPerson) };
       break;
     }
-    case "DELETE": {
+    case "DELETEsss": {
       let newPersons = state.persons.filter(p => p.id !== action.id);
       return {
         ...state.persons,
