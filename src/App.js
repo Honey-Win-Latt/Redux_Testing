@@ -6,6 +6,7 @@ import reducers from "./store/reducer";
 import Persons from "./containers/Persons";
 
 const store = createStore(reducers);
+// I am from main
 
 class App extends Component {
   render() {
