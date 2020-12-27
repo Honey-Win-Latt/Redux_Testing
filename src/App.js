@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
-import reducers from "./store/reducer";
+import reducer from "./store/reducer";
 
 import Persons from "./containers/Persons";
 
-const store = createStore(reducers);
+const store = createStore(reducer);
 
 class App extends Component {
   render() {
